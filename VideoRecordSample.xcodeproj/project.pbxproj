@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71BBE39005C798D6B5247B45 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 808302FDAECB1FAA5BAA7985 /* libPods.a */; };
 		960779161ACBF5D20022D6F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 960779151ACBF5D20022D6F7 /* main.m */; };
-		960779191ACBF5D20022D6F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 960779181ACBF5D20022D6F7 /* AppDelegate.m */; };
-		9607791C1ACBF5D20022D6F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9607791B1ACBF5D20022D6F7 /* ViewController.m */; };
-		9607791F1ACBF5D20022D6F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9607791D1ACBF5D20022D6F7 /* Main.storyboard */; };
+		960779191ACBF5D20022D6F7 /* VRSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 960779181ACBF5D20022D6F7 /* VRSAppDelegate.m */; };
 		960779211ACBF5D20022D6F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960779201ACBF5D20022D6F7 /* Images.xcassets */; };
 		960779241ACBF5D20022D6F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960779221ACBF5D20022D6F7 /* LaunchScreen.xib */; };
 		960779301ACBF5D20022D6F7 /* VideoRecordSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9607792F1ACBF5D20022D6F7 /* VideoRecordSampleTests.m */; };
+		9607793E1ACC09130022D6F7 /* VRSStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9607793D1ACC09130022D6F7 /* VRSStoryboard.storyboard */; };
+		960779471ACC0D620022D6F7 /* VRSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 960779461ACC0D620022D6F7 /* VRSBaseViewController.m */; };
+		960779521ACC0FC00022D6F7 /* VRSRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 960779511ACC0FC00022D6F7 /* VRSRecordViewController.m */; };
+		960779561ACC104E0022D6F7 /* VRSCameraWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 960779551ACC104E0022D6F7 /* VRSCameraWrapper.m */; };
+		9607795A1ACC2B450022D6F7 /* VRSVideoWritter.m in Sources */ = {isa = PBXBuildFile; fileRef = 960779591ACC2B450022D6F7 /* VRSVideoWritter.m */; };
+		962686561AD2B3C400207EF2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 962686581AD2B3C400207EF2 /* Localizable.strings */; };
+		964FD18D1ACE7C1500F1D4FF /* VRSBlinkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 964FD18B1ACE7C1500F1D4FF /* VRSBlinkView.m */; };
+		964FD19A1ACE9BF400F1D4FF /* DurationStringFromTimeIntervalString.m in Sources */ = {isa = PBXBuildFile; fileRef = 964FD1991ACE9BF400F1D4FF /* DurationStringFromTimeIntervalString.m */; };
+		964FD19F1ACEACA100F1D4FF /* VRSVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 964FD19E1ACEACA100F1D4FF /* VRSVideo.m */; };
+		964FD1A31ACEBF0A00F1D4FF /* VRSVideoProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 964FD1A21ACEBF0A00F1D4FF /* VRSVideoProcessor.m */; };
+		966BA1D11ACD2F2300E3145D /* VRSDataAccessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 966BA1D01ACD2F2300E3145D /* VRSDataAccessManager.m */; };
+		966BA1D51ACD2FAA00E3145D /* VRSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 966BA1D41ACD2FAA00E3145D /* VRSFileManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +38,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		808302FDAECB1FAA5BAA7985 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		960779101ACBF5D20022D6F7 /* VideoRecordSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoRecordSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		960779141ACBF5D20022D6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		960779151ACBF5D20022D6F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		960779171ACBF5D20022D6F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		960779181ACBF5D20022D6F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9607791A1ACBF5D20022D6F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9607791B1ACBF5D20022D6F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9607791E1ACBF5D20022D6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		960779171ACBF5D20022D6F7 /* VRSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRSAppDelegate.h; sourceTree = "<group>"; };
+		960779181ACBF5D20022D6F7 /* VRSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRSAppDelegate.m; sourceTree = "<group>"; };
 		960779201ACBF5D20022D6F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		960779231ACBF5D20022D6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		960779291ACBF5D20022D6F7 /* VideoRecordSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoRecordSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9607792E1ACBF5D20022D6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9607792F1ACBF5D20022D6F7 /* VideoRecordSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoRecordSampleTests.m; sourceTree = "<group>"; };
+		9607793D1ACC09130022D6F7 /* VRSStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VRSStoryboard.storyboard; sourceTree = "<group>"; };
+		960779451ACC0D620022D6F7 /* VRSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRSBaseViewController.h; sourceTree = "<group>"; };
+		960779461ACC0D620022D6F7 /* VRSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRSBaseViewController.m; sourceTree = "<group>"; };
+		960779501ACC0FC00022D6F7 /* VRSRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRSRecordViewController.h; sourceTree = "<group>"; };
+		960779511ACC0FC00022D6F7 /* VRSRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRSRecordViewController.m; sourceTree = "<group>"; };
+		960779541ACC104E0022D6F7 /* VRSCameraWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRSCameraWrapper.h; sourceTree = "<group>"; };
+		960779551ACC104E0022D6F7 /* VRSCameraWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRSCameraWrapper.m; sourceTree = "<group>"; };
+		960779581ACC2B450022D6F7 /* VRSVideoWritter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRSVideoWritter.h; sourceTree = "<group>"; };
+		960779591ACC2B450022D6F7 /* VRSVideoWritter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRSVideoWritter.m; sourceTree = "<group>"; };
+		962686511AD2B33C00207EF2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		962686521AD2B34400207EF2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		962686571AD2B3C400207EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		962686591AD2B3C600207EF2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9626865A1AD2B3C700207EF2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9626865B1AD2B3CC00207EF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9626865C1AD2B9C600207EF2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		964FD18A1ACE7C1500F1D4FF /* VRSBlinkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRSBlinkView.h; sourceTree = "<group>"; };
+		964FD18B1ACE7C1500F1D4FF /* VRSBlinkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRSBlinkView.m; sourceTree = "<group>"; };
+		964FD18C1ACE7C1500F1D4FF /* VRSBlinkViewDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRSBlinkViewDefinitions.h; sourceTree = "<group>"; };
+		964FD1981ACE9BF400F1D4FF /* DurationStringFromTimeInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DurationStringFromTimeInterval.h; sourceTree = "<group>"; };
+		964FD1991ACE9BF400F1D4FF /* DurationStringFromTimeIntervalString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DurationStringFromTimeIntervalString.m; sourceTree = "<group>"; };
+		964FD19D1ACEACA100F1D4FF /* VRSVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRSVideo.h; sourceTree = "<group>"; };
+		964FD19E1ACEACA100F1D4FF /* VRSVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRSVideo.m; sourceTree = "<group>"; };
+		964FD1A11ACEBF0A00F1D4FF /* VRSVideoProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRSVideoProcessor.h; sourceTree = "<group>"; };
+		964FD1A21ACEBF0A00F1D4FF /* VRSVideoProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRSVideoProcessor.m; sourceTree = "<group>"; };
+		966BA1CF1ACD2F2300E3145D /* VRSDataAccessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRSDataAccessManager.h; sourceTree = "<group>"; };
+		966BA1D01ACD2F2300E3145D /* VRSDataAccessManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRSDataAccessManager.m; sourceTree = "<group>"; };
+		966BA1D31ACD2FAA00E3145D /* VRSFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRSFileManager.h; sourceTree = "<group>"; };
+		966BA1D41ACD2FAA00E3145D /* VRSFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRSFileManager.m; sourceTree = "<group>"; };
+		966BA1D61ACD315A00E3145D /* VRSVideoWritterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRSVideoWritterProtocol.h; sourceTree = "<group>"; };
+		B4847701D15042130F998FC5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B945B4CE3FFAFA4BE4EA5895 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71BBE39005C798D6B5247B45 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +102,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F65461F021CFCF618130142 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				808302FDAECB1FAA5BAA7985 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		960779071ACBF5D20022D6F7 = {
 			isa = PBXGroup;
 			children = (
 				960779121ACBF5D20022D6F7 /* VideoRecordSample */,
 				9607792C1ACBF5D20022D6F7 /* VideoRecordSampleTests */,
 				960779111ACBF5D20022D6F7 /* Products */,
+				B55278A9755BA579E246990F /* Pods */,
+				3F65461F021CFCF618130142 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +133,12 @@
 		960779121ACBF5D20022D6F7 /* VideoRecordSample */ = {
 			isa = PBXGroup;
 			children = (
-				960779171ACBF5D20022D6F7 /* AppDelegate.h */,
-				960779181ACBF5D20022D6F7 /* AppDelegate.m */,
-				9607791A1ACBF5D20022D6F7 /* ViewController.h */,
-				9607791B1ACBF5D20022D6F7 /* ViewController.m */,
-				9607791D1ACBF5D20022D6F7 /* Main.storyboard */,
+				964FD1961ACE9BE000F1D4FF /* Helpers */,
+				9607793B1ACC08D90022D6F7 /* Resources */,
+				9607793A1ACC08AA0022D6F7 /* Business layer */,
+				960779391ACC08A20022D6F7 /* UI layer */,
+				960779171ACBF5D20022D6F7 /* VRSAppDelegate.h */,
+				960779181ACBF5D20022D6F7 /* VRSAppDelegate.m */,
 				960779201ACBF5D20022D6F7 /* Images.xcassets */,
 				960779221ACBF5D20022D6F7 /* LaunchScreen.xib */,
 				960779131ACBF5D20022D6F7 /* Supporting Files */,
@@ -98,6 +151,7 @@
 			children = (
 				960779141ACBF5D20022D6F7 /* Info.plist */,
 				960779151ACBF5D20022D6F7 /* main.m */,
+				9626865C1AD2B9C600207EF2 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +173,187 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		960779391ACC08A20022D6F7 /* UI layer */ = {
+			isa = PBXGroup;
+			children = (
+				964FD1881ACE7BC800F1D4FF /* Custom elements */,
+				960779431ACC0D220022D6F7 /* ViewControllers */,
+			);
+			path = "UI layer";
+			sourceTree = "<group>";
+		};
+		9607793A1ACC08AA0022D6F7 /* Business layer */ = {
+			isa = PBXGroup;
+			children = (
+				964FD1A01ACEBEE900F1D4FF /* VideoProcessor */,
+				964FD19B1ACEAC6E00F1D4FF /* Models */,
+				966BA1CE1ACD2E7C00E3145D /* DataAccess */,
+				960779571ACC2B280022D6F7 /* VideoWritter */,
+				960779531ACC10220022D6F7 /* CameraWrapper */,
+			);
+			path = "Business layer";
+			sourceTree = "<group>";
+		};
+		9607793B1ACC08D90022D6F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				962686531AD2B34F00207EF2 /* Strings */,
+				9607793C1ACC08F20022D6F7 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9607793C1ACC08F20022D6F7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9607793D1ACC09130022D6F7 /* VRSStoryboard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		960779431ACC0D220022D6F7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9607794F1ACC0FA20022D6F7 /* RecordViewController */,
+				960779441ACC0D3E0022D6F7 /* BaseViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		960779441ACC0D3E0022D6F7 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				960779451ACC0D620022D6F7 /* VRSBaseViewController.h */,
+				960779461ACC0D620022D6F7 /* VRSBaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		9607794F1ACC0FA20022D6F7 /* RecordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				960779501ACC0FC00022D6F7 /* VRSRecordViewController.h */,
+				960779511ACC0FC00022D6F7 /* VRSRecordViewController.m */,
+			);
+			path = RecordViewController;
+			sourceTree = "<group>";
+		};
+		960779531ACC10220022D6F7 /* CameraWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				960779541ACC104E0022D6F7 /* VRSCameraWrapper.h */,
+				960779551ACC104E0022D6F7 /* VRSCameraWrapper.m */,
+				966BA1D61ACD315A00E3145D /* VRSVideoWritterProtocol.h */,
+			);
+			path = CameraWrapper;
+			sourceTree = "<group>";
+		};
+		960779571ACC2B280022D6F7 /* VideoWritter */ = {
+			isa = PBXGroup;
+			children = (
+				960779581ACC2B450022D6F7 /* VRSVideoWritter.h */,
+				960779591ACC2B450022D6F7 /* VRSVideoWritter.m */,
+			);
+			path = VideoWritter;
+			sourceTree = "<group>";
+		};
+		962686531AD2B34F00207EF2 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				962686581AD2B3C400207EF2 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		964FD1881ACE7BC800F1D4FF /* Custom elements */ = {
+			isa = PBXGroup;
+			children = (
+				964FD1891ACE7BF100F1D4FF /* BlinkView */,
+			);
+			path = "Custom elements";
+			sourceTree = "<group>";
+		};
+		964FD1891ACE7BF100F1D4FF /* BlinkView */ = {
+			isa = PBXGroup;
+			children = (
+				964FD18A1ACE7C1500F1D4FF /* VRSBlinkView.h */,
+				964FD18B1ACE7C1500F1D4FF /* VRSBlinkView.m */,
+				964FD18C1ACE7C1500F1D4FF /* VRSBlinkViewDefinitions.h */,
+			);
+			path = BlinkView;
+			sourceTree = "<group>";
+		};
+		964FD1961ACE9BE000F1D4FF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				964FD1971ACE9BF400F1D4FF /* DurationStringFromTimeInterval */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		964FD1971ACE9BF400F1D4FF /* DurationStringFromTimeInterval */ = {
+			isa = PBXGroup;
+			children = (
+				964FD1981ACE9BF400F1D4FF /* DurationStringFromTimeInterval.h */,
+				964FD1991ACE9BF400F1D4FF /* DurationStringFromTimeIntervalString.m */,
+			);
+			path = DurationStringFromTimeInterval;
+			sourceTree = "<group>";
+		};
+		964FD19B1ACEAC6E00F1D4FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				964FD19C1ACEAC8700F1D4FF /* Video */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		964FD19C1ACEAC8700F1D4FF /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				964FD19D1ACEACA100F1D4FF /* VRSVideo.h */,
+				964FD19E1ACEACA100F1D4FF /* VRSVideo.m */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		964FD1A01ACEBEE900F1D4FF /* VideoProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				964FD1A11ACEBF0A00F1D4FF /* VRSVideoProcessor.h */,
+				964FD1A21ACEBF0A00F1D4FF /* VRSVideoProcessor.m */,
+			);
+			path = VideoProcessor;
+			sourceTree = "<group>";
+		};
+		966BA1CE1ACD2E7C00E3145D /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+				966BA1D21ACD2F8500E3145D /* FileManager */,
+				966BA1CF1ACD2F2300E3145D /* VRSDataAccessManager.h */,
+				966BA1D01ACD2F2300E3145D /* VRSDataAccessManager.m */,
+			);
+			path = DataAccess;
+			sourceTree = "<group>";
+		};
+		966BA1D21ACD2F8500E3145D /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				966BA1D31ACD2FAA00E3145D /* VRSFileManager.h */,
+				966BA1D41ACD2FAA00E3145D /* VRSFileManager.m */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		B55278A9755BA579E246990F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4847701D15042130F998FC5 /* Pods.debug.xcconfig */,
+				B945B4CE3FFAFA4BE4EA5895 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +361,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 960779331ACBF5D20022D6F7 /* Build configuration list for PBXNativeTarget "VideoRecordSample" */;
 			buildPhases = (
+				067A437E7009EF925FB11CF3 /* Check Pods Manifest.lock */,
 				9607790C1ACBF5D20022D6F7 /* Sources */,
 				9607790D1ACBF5D20022D6F7 /* Frameworks */,
 				9607790E1ACBF5D20022D6F7 /* Resources */,
+				059F73AC789181EFEA5264F3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +400,7 @@
 		960779081ACBF5D20022D6F7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = VRS;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = Work;
 				TargetAttributes = {
@@ -182,6 +420,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
+				uk,
 			);
 			mainGroup = 960779071ACBF5D20022D6F7;
 			productRefGroup = 960779111ACBF5D20022D6F7 /* Products */;
@@ -199,8 +439,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9607791F1ACBF5D20022D6F7 /* Main.storyboard in Resources */,
 				960779241ACBF5D20022D6F7 /* LaunchScreen.xib in Resources */,
+				962686561AD2B3C400207EF2 /* Localizable.strings in Resources */,
+				9607793E1ACC09130022D6F7 /* VRSStoryboard.storyboard in Resources */,
 				960779211ACBF5D20022D6F7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,14 +455,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		059F73AC789181EFEA5264F3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		067A437E7009EF925FB11CF3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9607790C1ACBF5D20022D6F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9607791C1ACBF5D20022D6F7 /* ViewController.m in Sources */,
-				960779191ACBF5D20022D6F7 /* AppDelegate.m in Sources */,
+				964FD1A31ACEBF0A00F1D4FF /* VRSVideoProcessor.m in Sources */,
+				966BA1D11ACD2F2300E3145D /* VRSDataAccessManager.m in Sources */,
+				966BA1D51ACD2FAA00E3145D /* VRSFileManager.m in Sources */,
+				960779471ACC0D620022D6F7 /* VRSBaseViewController.m in Sources */,
+				964FD18D1ACE7C1500F1D4FF /* VRSBlinkView.m in Sources */,
+				9607795A1ACC2B450022D6F7 /* VRSVideoWritter.m in Sources */,
+				960779521ACC0FC00022D6F7 /* VRSRecordViewController.m in Sources */,
+				960779561ACC104E0022D6F7 /* VRSCameraWrapper.m in Sources */,
+				960779191ACBF5D20022D6F7 /* VRSAppDelegate.m in Sources */,
+				964FD19F1ACEACA100F1D4FF /* VRSVideo.m in Sources */,
 				960779161ACBF5D20022D6F7 /* main.m in Sources */,
+				964FD19A1ACE9BF400F1D4FF /* DurationStringFromTimeIntervalString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,20 +527,25 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9607791D1ACBF5D20022D6F7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9607791E1ACBF5D20022D6F7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		960779221ACBF5D20022D6F7 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				960779231ACBF5D20022D6F7 /* Base */,
+				962686511AD2B33C00207EF2 /* ru */,
+				962686521AD2B34400207EF2 /* uk */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		962686581AD2B3C400207EF2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				962686571AD2B3C400207EF2 /* Base */,
+				962686591AD2B3C600207EF2 /* ru */,
+				9626865A1AD2B3C700207EF2 /* uk */,
+				9626865B1AD2B3CC00207EF2 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -343,21 +631,29 @@
 		};
 		960779341ACBF5D20022D6F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4847701D15042130F998FC5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VideoRecordSample/PrefixHeader.pch";
 				INFOPLIST_FILE = VideoRecordSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		960779351ACBF5D20022D6F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B945B4CE3FFAFA4BE4EA5895 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VideoRecordSample/PrefixHeader.pch";
 				INFOPLIST_FILE = VideoRecordSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -414,6 +710,7 @@
 				960779351ACBF5D20022D6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		960779361ACBF5D20022D6F7 /* Build configuration list for PBXNativeTarget "VideoRecordSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +719,7 @@
 				960779381ACBF5D20022D6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  VRSAppDelegate.h
 //  VideoRecordSample
 //
 //  Created by Ruslan Shevtsov on 4/1/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface VRSAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

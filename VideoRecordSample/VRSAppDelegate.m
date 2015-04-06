@@ -1,22 +1,39 @@
 //
-//  AppDelegate.m
+//  VRSAppDelegate.m
 //  VideoRecordSample
 //
 //  Created by Ruslan Shevtsov on 4/1/15.
 //  Copyright (c) 2015 Work. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "VRSAppDelegate.h"
 
-@interface AppDelegate ()
+// Loggers
+#import "DDTTYLogger.h"
+
+// Managers
+#import "VRSFileManager.h"
+
+@interface VRSAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation VRSAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    setenv("XcodeColors", "YES", 0);
+    
+    // Configure CocoaLumberjack
+    [DDLog addLogger:[DDTTYLogger sharedInstance] withLevel:LOG_LEVEL_DEBUG];
+    
+    // Enable Colors
+    [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
+    
+    [VRSFileManager clearVideosDirectory];
+    
     return YES;
 }
 
