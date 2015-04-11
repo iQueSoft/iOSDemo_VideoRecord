@@ -3,7 +3,7 @@
 //  VideoRecordSample
 //
 //  Created by Ruslan Shevtsov on 4/1/15.
-//  Copyright (c) 2015 Work. All rights reserved.
+//  Copyright (c) 2015 iQueSoft rights reserved.
 //
 
 #import "VRSCameraWrapper.h"
